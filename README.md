@@ -20,7 +20,7 @@ The functionalities are:
   
   For this custom detector I used **Darknet and YOLOv4 architecture model.**
   
-  The folder structure:
+  The folder structure on Drive in Collaboratory:
   
   ![project_structure_LI](https://user-images.githubusercontent.com/50181082/125208118-08ad0e00-e267-11eb-8f8a-702ee3aabd7b.jpg)
   
