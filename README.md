@@ -20,12 +20,25 @@ The functionalities are:
   
   For this custom detector I used **Darknet and YOLOv4 architecture model.**
   
-  The dataset contains 291 for training and validation and for the inference it was separated 9 imagens
-  just as example.
+  The folder structure:
   
+  ![project_structure_LI](https://user-images.githubusercontent.com/50181082/125208118-08ad0e00-e267-11eb-8f8a-702ee3aabd7b.jpg)
+  
+  ![project_structure_2_LI](https://user-images.githubusercontent.com/50181082/125207953-039b8f00-e266-11eb-87e5-2ce42457c20f.jpg)
+  
+  ![project_structure_3](https://user-images.githubusercontent.com/50181082/125208016-6db43400-e266-11eb-9991-82357827667b.PNG)
+  
+  ![project_structure_4](https://user-images.githubusercontent.com/50181082/125208022-7442ab80-e266-11eb-9315-aa0be8ff45c4.PNG)
+
+
   The files used to configure the custom detector are:
   
-  - **obj folder** -> contains the dataset with images and labels
+  - **obj folder** -> contains the dataset with images and labels. The dataset contains 291 for training and validation and for the inference it was separated 9 imagens
+  just as example. 
+  
+  The dataset, with images and labels are available at the following link:
+  
+  https://drive.google.com/drive/folders/13UH_Anz2HmUIr0MLWJEDesky8Pm3K8NZ?usp=sharing
 
   - **obj.data file** -> contains data training information which are:
   
