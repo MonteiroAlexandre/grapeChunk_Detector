@@ -137,9 +137,9 @@ if __name__ == "__main__":
 
 			cv2.line(image, (int(p1_x),int(p1_y)), (int(p2_x),int(p2_y)), color_line, 2)
 
-			cv2.putText(image, "Distancia aproximada em pixels: " + str(np.round(dist)), (10, 30) , cv2.FONT_HERSHEY_SIMPLEX, 1, color_text, 2)
-			cv2.putText(image, "Numero de cachos detectados: " + str(len(boxes)), (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 1, color_text, 2)
-			cv2.putText(image, "Taxa de cachos por pixel: " + str(np.round(len(boxes)/np.round(dist), 4)), (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 1, color_text, 2)
+			cv2.putText(image, "Approximate distance in pixels: " + str(np.round(dist)), (10, 30) , cv2.FONT_HERSHEY_SIMPLEX, 1, color_text, 2)
+			cv2.putText(image, "Number of Chunks detected : " + str(len(boxes)), (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 1, color_text, 2)
+			cv2.putText(image, "Chunks per pixel rate: " + str(np.round(len(boxes)/np.round(dist), 4)), (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 1, color_text, 2)
 
 			imgbytes = cv2.imencode(".png", image)[1].tobytes()
 			window["-IMAGE-"].update(data=imgbytes)
